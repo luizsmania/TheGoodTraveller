@@ -16,7 +16,7 @@ body{
 nav h1, h2{
     
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #252525;
 }
 
@@ -26,6 +26,7 @@ nav h1, h2{
     font-size: 280%;
     margin-left: 10px;
     color: #000281;
+    letter-spacing: 2px;
 }
 
 #menu{
@@ -81,7 +82,7 @@ em {
     height: 600px;
     width: 100%;
     background: url(/assets/images/index-banner-background.jpeg) no-repeat center center;
-    background-size: 1900px 600px;
+    background-size: 98.7% 600px;
     border-radius: 60px;
 
 }
@@ -101,9 +102,7 @@ em {
     width: 300px;
     height: 200px;
 
-    padding-top: 40px;
-    padding-left: 10px;
-
+    padding: 30px;
     background-color: rgba(107, 176, 241, 0.7);
 
     bottom: 30px;
@@ -112,4 +111,15 @@ em {
     position: absolute;
     border-radius: 10px;
 
+}
+
+/* Description of our services */
+
+#ourservices {
+    text-align: center;
+}
+
+#ourservices h2 {
+   font-size: 2em;
+   margin: 20px;
 }
