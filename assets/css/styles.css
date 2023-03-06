@@ -114,9 +114,9 @@ em {
 }
 
 #cover-text:hover {
-    background-color: #000281;
+    background-color: rgba(0, 2, 129, 0.7);
     font-size: 102%;
-    border-radius: 20px;
+    border-radius: 15px;
 
 }
 
