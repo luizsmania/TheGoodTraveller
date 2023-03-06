@@ -113,6 +113,13 @@ em {
 
 }
 
+#cover-text:hover {
+    background-color: #000281;
+    font-size: 102%;
+    border-radius: 20px;
+
+}
+
 /* Description of our services */
 
 #container {
