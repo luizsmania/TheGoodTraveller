@@ -21,6 +21,7 @@ nav h1, h2{
     float: left;
     font-size: 280%;
     margin-left: 10px;
+    color: #000281;
 }
 
 #menu{
@@ -38,18 +39,28 @@ nav h1, h2{
     margin-right: 30px;
 }
 
+
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: rgba(107, 176, 241, 1);
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border-left: 1px solid #000281;
+    border-right: 1px solid #000281;
+    color: #000281;
 }
 
-.active{
-    border-bottom: 1px solid #3a3a3a;
+em {
+    color:#000281;
+    font-style: normal;
+    font-size: 105%;
 }
+
+.active i {
+    color:#000281;
+}
+
 
 /* Banner image and cover text */
 
