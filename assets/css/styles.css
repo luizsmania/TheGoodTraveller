@@ -115,11 +115,50 @@ em {
 
 /* Description of our services */
 
-#ourservices {
+#container {
     text-align: center;
+    margin-top: 60px;
 }
 
-#ourservices h2 {
-   font-size: 2em;
+#container p {
+    width: 480px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#block1{ /*Expert Travel Advice*/
+    float: left;
+    clear: both;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+#block2 { /*Tailor Made Packages*/
+    float: left;
+    margin: 50px;
+}
+
+#block3 { /*World Wide Destinations */
+    float: left;
+    margin: 50px;
+}
+
+
+#container h2 {
+   font-size: 2.5em;
    margin: 20px;
+   color:#000281;
+}
+
+#container h3 {
+    font-size: 2.1em;
+    margin: 15px;
+    font-weight: bolder;
+    color:#000281;
+}
+
+#container p {
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-bottom: 5px;
 }
