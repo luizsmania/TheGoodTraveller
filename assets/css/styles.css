@@ -273,6 +273,22 @@ em {
 .cuba a {
     text-decoration: none;
     color: inherit;
+    position: relative;
+}
+
+.cuba a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #000281;
+    left: 0;
+    bottom: 0;
+    transition: 0.8s;
+    position: absolute;
+}
+
+.cuba a:hover::after{
+    width: 100%;
 }
 
 .cuba i {
