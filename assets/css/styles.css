@@ -125,47 +125,171 @@ em {
 #container {
     text-align: center;
     margin-top: 60px;
-}
+    width: 98.7%;
+    height: 300px;
 
-#container p {
-    width: 480px;
-    height: 100%;
-    margin: 0 auto;
 }
-
-#block1{ /*Expert Travel Advice*/
-    float: left;
-    clear: both;
-    margin: 50px;
-    margin-left: 100px;
-}
-
-#block2 { /*Tailor Made Packages*/
-    float: left;
-    margin: 50px;
-}
-
-#block3 { /*World Wide Destinations */
-    float: left;
-    margin: 50px;
-}
-
 
 #container h2 {
-   font-size: 2.5em;
-   margin: 20px;
-   color:#000281;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2em;
+    color:#000281;
+    
 }
 
 #container h3 {
-    font-size: 2.1em;
-    margin: 15px;
+    margin-bottom: 15px;
+    font-size: 1.7em;
     font-weight: bolder;
     color:#000281;
 }
 
 #container p {
+    text-align: center;
     font-size: 1.2em;
     font-weight: bolder;
-    margin-bottom: 5px;
+}
+
+#block1{ /*Expert Travel Advice*/
+    width: 33.3%;
+    float: left;
+}
+
+#block2 { /*Tailor Made Packages*/
+    width: 33.3%;
+    float: right;
+}
+
+#block3 { /*World Wide Destinations */
+    width: 33.3%;
+    margin: 0 auto;
+
+}
+
+
+
+.discover-image {
+    background: url(/assets/images/discovermebanner.png) no-repeat center center;
+    background-size: cover;
+    width: 98.7%;
+    height: 600px;
+    display: block;
+    margin-top: 20%;
+    border-radius: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgba(0, 2, 129, 0.7);
+}
+
+.discovermore h2 {
+    margin-left: 65%;
+    margin-top: 20%;
+    font-weight: 900;
+    font-size: 1.8em;
+    color: #000281;
+
+
+}
+
+.discovermore p {
+    font-size: 1.8em;
+    margin-left: 73%;
+}
+
+#discover-outer{
+    margin-top: 100px;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#discover-image{
+    height: 600px;
+    width: 100%;
+    background: url(/assets/images/discovermebanner.png) no-repeat center center;
+    background-size: 98.7% 600px;
+    border-radius: 60px;
+
+}
+
+#discover-text, #discover-text h2, #discover-text h3 {
+    color: #ffffff;
+}
+
+#discover-text a {
+    text-decoration: none;
+    text-align: center;
+}
+
+#discover-text h3 {
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 0px;
+    font-size: 1em;
+    color: #fff;
+    
+
+    background-color: rgba(0, 2, 129, 0.705);
+}
+
+#discover-text h2 {
+    margin-bottom: 1px;
+    margin-left: 10px;
+
+}
+
+#discover-text {
+    font-size: 100%;
+    letter-spacing: 4px;
+
+    width: 280px;
+    height: 150px;
+
+    padding: 30px;
+    background-color: rgba(107, 176, 241, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #000281;
 }
