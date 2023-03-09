@@ -183,6 +183,10 @@ em {
     border: 2px solid rgba(0, 2, 129, 0.7);
 }
 
+.discover-text {
+    background-color: #000281;
+}
+
 .discovermore h2 {
     margin-left: 65%;
     margin-top: 20%;
@@ -229,11 +233,11 @@ em {
     text-align: center;
     margin-top: 20%;
     margin-left: 0px;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #fff;
     
 
-    background-color: rgba(0, 2, 129, 0.705);
+    /* background-color: rgba(0, 2, 129, 0.705); */
 }
 
 #discover-text h2 {
@@ -250,7 +254,7 @@ em {
     height: 150px;
 
     padding: 30px;
-    background-color: rgba(107, 176, 241, 0.7);
+    background-color: rgba(0, 2, 129, 0.705);
 
     bottom: 30px;
     right: 150px;
