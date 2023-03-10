@@ -265,7 +265,7 @@ em {
 }
 
 
-.cuba {
+.discovercity {
     min-height: 70vh;
     margin-left: 10vh;
     width: 70%;
@@ -274,13 +274,13 @@ em {
     align-items: center;
 }
 
-.cuba a {
+.discovercity a {
     text-decoration: none;
     color: inherit;
     position: relative;
 }
 
-.cuba a::after{
+.discovercity a::after{
     content: '';
     height: 3px;
     width: 0;
@@ -291,15 +291,15 @@ em {
     position: absolute;
 }
 
-.cuba a:hover::after{
+.discovercity a:hover::after{
     width: 100%;
 }
 
-.cuba i {
+.discovercity i {
     font-size: 20px;
 }
 
-img {
+.discovercity-image img {
     width: 500px;
     height: 500px;
     float: left;
@@ -307,22 +307,46 @@ img {
     margin-right: 15px;
 }
 
-.cuba-text {
+.discovercity-text {
     color: black;
     margin-left: 30px;
 }
 
-.cuba-text h2 {
+.discovercity-text h2 {
     font-size: 50px;
     color: #000281;
 }
 
-.cuba-text p {
+.discovercity-text p {
+    margin-top: 1em;
     font-size: 18px;
 }
 
 .countrysummary{
     clear: both;
+    display: block;
+}
+
+.countrysummary h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+.flag img {
+    padding-top: 3em;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 300px;
+}
+
+.countrysummary iframe {
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
 }
 
 
