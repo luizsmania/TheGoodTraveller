@@ -379,6 +379,73 @@ em {
     height: 30em;    
 }
 
+/* Get the budget Banner */
+
+
+.get-the-budget {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vw;
+    display: block;
+    width: 40vw;
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+    background: url(/assets/images/getthebudget-background.jpg);
+    background-size: cover;
+    background-position: 100%;
+    border-radius: 10px; 
+    
+}
+
+.budget-text {
+    color: black;
+}
+
+
+.get-the-budget h1, h3 {
+    padding: 30px;
+}
+
+.get-the-budget h1{
+    font-size: 3em;
+    color: #000281;
+}
+
+.get-the-budget h3 {
+    font-size: 1.5em;
+}
+
+.budget-anchor {
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    /* width: 60px;
+    height: 60px; */
+    /* justify-content: center;
+    text-align: center; */
+    font-size: 3em;
+    padding-top: 10px;
+    padding-bottom: 60px;
+
+}
+
+.get-the-budget a {
+    font-size: 20px;
+    font-weight: bolder;
+    /* border: 1px solid #000281; */
+    background-color: hsla(0, 0%, 100%, 0.399);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000281;
+    text-transform: uppercase;
+
+} 
+
+.get-the-budget a i {
+    margin-left: 5px;
+}
 
 
 
