@@ -46,6 +46,7 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    font-weight: bolder;
 }
 
 
@@ -264,7 +265,7 @@ em {
     height: 150px;
 
     padding: 30px;
-    background-color: rgba(0, 2, 129, 0.705);
+    background-color: rgba(107, 176, 241, 0.7);
 
     bottom: 30px;
     right: 150px;
@@ -272,6 +273,10 @@ em {
     position: absolute;
     border-radius: 10px;
 
+}
+
+#discover-text:hover{
+    background-color: rgba(0, 2, 129, 0.705);
 }
 
 
@@ -333,6 +338,8 @@ em {
 .discovercity-text p {
     margin-top: 1em;
     font-size: 18px;
+    color: black;
+    font-weight: bolder;
 }
 
 .countrysummary {
