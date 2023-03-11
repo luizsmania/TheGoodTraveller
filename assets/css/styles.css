@@ -426,11 +426,6 @@ em {
 .budget-anchor {
     margin-left: auto;
     margin-right: auto;
-    /* display: flex; */
-    /* width: 60px;
-    height: 60px; */
-    /* justify-content: center;
-    text-align: center; */
     font-size: 3em;
     padding-top: 10px;
     padding-bottom: 60px;
@@ -440,8 +435,7 @@ em {
 .get-the-budget a {
     font-size: 20px;
     font-weight: bolder;
-    /* border: 1px solid #000281; */
-    background-color: hsla(0, 0%, 100%, 0.399);
+    background-color: hsla(0, 0%, 100%, 0.350);
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
@@ -454,8 +448,11 @@ em {
     margin-left: 5px;
 }
 
-
-
+.get-the-budget a:hover{
+    background-color: rgba(0, 2, 129, 1);
+    color: black;
+    font-size: 21px;
+}
 
 
 
