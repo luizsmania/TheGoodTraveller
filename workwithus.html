@@ -33,6 +33,39 @@
     </nav>
 </header>
 
+<!-- Form -->
+<section class="work-form-section">
+    <form class="work-signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+        <h2>Apply to work with us!</i> </h2>
+        <label for="fname">First Name</label>
+        <input id="fname" class="text-input" type="text" name="first_name" required />
+        <label for="lname">Last Name</label>
+        <input id="lname" class="text-input" type="text" name="last_name" required />
+        <label for="email">Email Address</label>
+        <input id="email" class="text-input" type="email" name="email_address" required />
+        <label for="positionofchoice">What position are you applying for?</label><br>
+        <select class="select-input" id="tourofchoice" name="positionofchoice" required>
+            <option value="webdesigner">Web Designer</option>
+            <option value="tourguide">Tour Guide</option>
+            <option value="marketing">Marketing</option>
+            <option value="socialmedia">Social Media</option>
+            <option value="finance">Finance</option>
+        </select>
+        <label for="heardabout">Where did you hear about us?</label><br>
+        <select class="select-input" id="heardabout" name="heardabout" required>
+            <option value="socialmedia">Social Media</option>
+            <option value="friend">Through a Friend</option>
+            <option value="google">Google</option>
+            <option value="jobwebsite">Indeed, LinkedIn, or similar.</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="myfile">Attach your CV:</label>
+        <input type="file" id="myfile" name="myfile">
+        <input class="join-button" type="submit" value="Submit" />
+
+    </form>
+</section>
+
 <!-- social networks footer -->
 <footer>
     <ul class="social-networks">

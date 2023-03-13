@@ -41,8 +41,8 @@
     </header>
 
     <!-- Form -->
-    <section class="form-section">
-        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+    <section class="budget-form-section">
+        <form class="budget-signup-form" method="POST" action="https://formdump.codeinstitute.net/">
             <h2>Get your Budget through E-Mail!</i> </h2>
             <label for="fname">First Name</label>
             <input id="fname" class="text-input" type="text" name="first_name" required />
@@ -51,13 +51,17 @@
             <label for="email">Email Address</label>
             <input id="email" class="text-input" type="email" name="email_address" required />
             <label for="tourofchoice">Where to?</label><br>
-            <select class="select-input" id="tourofchoice" name="tourofchoice">
+            <select class="select-input" id="tourofchoice" name="tourofchoice" required>
                 <option value="cuba">Havana</option>
                 <option value="jamaica">Kingston</option>
                 <option value="brazil">Rio de Janeiro</option>
                 <option value="egypt">Cairo</option>
                 <option value="austria">Vienna</option>
             </select>
+            <label for="age">How old are you?</label>
+            <input class="text-input" id="age" name="age" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" required/>
+            <label for="tripduration">How many days are you going to travel?</label>
+            <input class="text-input" id="tripduration" name="tripduration" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" required/>
             <input class="join-button" type="submit" value="Submit" />
 
         </form>

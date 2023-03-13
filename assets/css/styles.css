@@ -458,7 +458,7 @@ em {
 
 /* Form */
 
-.form-section {
+.budget-form-section {
     display: block;
     background: url(/assets/images/form-background.jpg);
     background-size: cover;
@@ -472,7 +472,7 @@ em {
     
 }
 
-.signup-form {
+.budget-signup-form {
     /* margin: 200px 10% 0 0; */
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -481,12 +481,12 @@ em {
     align-items: center;
     margin-left: 180px;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 30px;
     border-radius: 10px;
 }
 
-.signup-form > h2 {
+.budget-signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -502,7 +502,7 @@ em {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #000281;
 }
 
 .select-input {
@@ -516,26 +516,67 @@ em {
 }
 
 .select-input:hover {
-    border-color: #f16c6b;
+    border-color: #000281;
 }
 
 .join-button {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
     border-radius: 2px;
     padding: 10px 28px 10px 28px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #000281;
     color: #fafafa;
     display: block;
     border-radius: 10px;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+    background-color: black;
+    color: #000281;
 }
 
+/* Work with us Form */
+
+.work-form-section {
+    display: block;
+    background: url(/assets/images/workwithus-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 800px;
+    align-content: center;
+    clear: both;
+    margin: auto;
+    border-radius: 10px;
+    
+    
+}
+
+.work-signup-form {
+    /* margin: 200px 10% 0 0; */
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: auto;
+    margin-top: 130px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.work-signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#myfile{
+    padding-left: 36px;
+}
 
 /* Social netwook footer rules */
 footer {
