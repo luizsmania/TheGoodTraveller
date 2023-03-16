@@ -73,6 +73,32 @@ em {
     color: #000281;
 }
 
+/* Media Queries for headings and logo */
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    #menu{
+        clear: left;
+        float: left;
+        margin-right: 10%;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #logo{
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+    }
+}
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
 
 /* Banner image and cover text */
 
@@ -126,6 +152,58 @@ em {
 
 }
 
+@media screen and (max-width: 1200px) {
+    #banner-image{
+        display: block;
+        margin: 0 auto;
+        max-height: 900px;
+        max-width: 1000px;
+    }
+    #cover-text{
+        max-width: 300px;
+        max-height: 200px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 0;
+        background-color: rgba(107, 176, 241, 0.4);
+    }
+    #cover-text h2, h3{
+        max-width: 300px;
+        max-height: 120px;
+    }
+    
+}
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+    #banner-image{
+        max-height: 500px;
+        max-width: 800px;
+    }
+    #cover-text{
+        max-width: 210px;
+        max-height: 160px;
+        margin-left: 50px;
+        margin-top: 10px;
+        left: 0;
+        margin-left: 10%;
+        margin-right: 0;
+        top: 250px;
+        background-color: rgba(107, 176, 241, 0.7);
+        font-size: 0.7em;
+        font-family: inherit;
+    }
+    #cover-text h2, h3{
+        max-width: 300px;
+        max-height: 120px;
+    }
+    #cover-text:hover{
+        font-size: 0.75em;
+        max-width: 220px;
+        max-height: 170px;
+        border-radius: 10px;
+    }
+}
+
 /* Description of our services */
 
 #container {
@@ -173,44 +251,31 @@ em {
     /*World Wide Destinations */
     width: 33.3%;
     margin: 0 auto;
+}
 
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+    #block1, #block2, #block3{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+        clear: both;
+    }
+    #container h3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #container p {
+     margin-bottom: 50px;
+     clear: both;
+    }
 }
 
 
 /* Discover section */
-.discover-image {
-    background: url(/assets/images/discovermebanner.png) no-repeat center center;
-    background-size: cover;
-    width: 98.7%;
-    height: 600px;
-    display: block;
-    margin-top: 20%;
-    border-radius: 60px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid rgba(0, 2, 129, 0.7);
-}
-
-.discover-text {
-    background-color: #000281;
-}
-
-.discovermore h2 {
-    margin-left: 65%;
-    margin-top: 20%;
-    font-weight: 900;
-    font-size: 1.8em;
-    color: #000281;
-
-
-}
-
-.discovermore p {
-    font-size: 1.8em;
-    margin-left: 73%;
-}
-
 #discover-outer {
     margin-top: 100px;
     height: 600px;
@@ -225,8 +290,45 @@ em {
     background: url(/assets/images/discovermebanner.png) no-repeat center center;
     background-size: 98.7% 600px;
     border-radius: 60px;
+    overflow: scroll;
 
 }
+
+/* Media Queries */
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    #discover-image{
+        /* display: block; */
+        /* margin: 0 auto; */
+        position: relative !important;
+        max-height: 900px;
+        max-width: 1000px;
+
+        
+
+    }
+}
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+    #container{
+        border-bottom: 100px;
+    }
+    #discover-container{
+        padding-top: 400px !important;
+        float: none;
+        display: block;
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 500px){
+    #discover-container{
+        padding-top: 500px;
+        float: none;
+        display: block;
+        width: 100% !important;
+    }
+}
+
 
 /* Discovere our tour page */
 
