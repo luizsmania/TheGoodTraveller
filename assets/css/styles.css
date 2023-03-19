@@ -103,7 +103,7 @@ em {
 /* Banner image and cover text */
 
 #banner-outer {
-    height: 600px;
+    height: 100%px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -112,7 +112,7 @@ em {
 #banner-image {
     height: 600px;
     width: 100%;
-    background: url(assets/images/index-banner-background.jpeg) no-repeat center center;
+    background: url(/assets/images/index-banner-background.jpeg) no-repeat center center;
     background-size: 98.7% 600px;
     border-radius: 60px;
 
@@ -176,7 +176,7 @@ em {
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
     #banner-image{
-        max-height: 500px;
+        max-height: 400px;
         max-width: 800px;
     }
     #cover-text{
@@ -187,7 +187,7 @@ em {
         left: 0;
         margin-left: 10%;
         margin-right: 0;
-        top: 250px;
+        top: 140px;
         background-color: rgba(107, 176, 241, 0.7);
         font-size: 0.7em;
         font-family: inherit;
@@ -207,10 +207,12 @@ em {
 /* Description of our services */
 
 #container {
+    margin-top: 10vw;
+    align-items: center;
     text-align: center;
-    margin-top: 60px;
     width: 98.7%;
     height: 100%;
+    margin-bottom: 10vw;
 
 }
 
@@ -278,16 +280,17 @@ em {
 /* Discover section */
 #discover-outer {
     margin-top: 100px;
-    height: 600px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin-bottom: 100px;
 }
 
 #discover-image {
     height: 600px;
     width: 100%;
-    background: url(assets/images/discovermebanner.png) no-repeat center center;
+    background: url(/assets/images/discovermebanner.png) no-repeat center center;
     background-size: 98.7% 600px;
     border-radius: 60px;
 
@@ -359,7 +362,12 @@ em {
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 420px){
     #discover-text{
-        right: 80px;
+        right: 15%;
+        bottom: 10px;
+    }
+    #discover-image {
+        background: url(/assets/images/mediaquerydiscovermebanner.jpeg) no-repeat center center;
+        height: 400px;
     }
 }
 @media screen and (max-width: 500px){
@@ -488,7 +496,7 @@ em {
     text-align: center;
     justify-content: center;
     font-size: 1em;
-    background: url(assets/images/getthebudget-background.jpg);
+    background: url(/assets/images/getthebudget-background.jpg);
     background-size: cover;
     background-position: 100%;
     border-radius: 10px; 
@@ -550,7 +558,7 @@ em {
 
 .budget-form-section {
     display: block;
-    background: url(assets/images/form-background.jpg);
+    background: url(/assets/images/form-background.jpg);
     background-size: cover;
     background-position: center;
     width: 800px;
@@ -632,7 +640,7 @@ em {
 
 .work-form-section {
     display: block;
-    background: url(assets/images/workwithus-background.jpeg);
+    background: url(/assets/images/workwithus-background.jpeg);
     background-size: cover;
     background-position: center;
     width: 800px;
