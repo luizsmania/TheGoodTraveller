@@ -672,26 +672,24 @@ em {
     background: url(/assets/images/form-background.jpg);
     background-size: cover;
     background-position: center;
-    width: 800px;
-    height: 800px;
+    width: 70%;
+    height: 60vw;
     align-content: center;
     clear: both;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
     
 }
 
 .budget-signup-form {
-    /* margin: 200px 10% 0 0; */
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
+    width: 30vw;
+    display: block;
     align-items: center;
-    margin-left: 180px;
-    margin-right: auto;
-    margin-top: 100px;
     padding: 30px;
+    right: 100;
     border-radius: 10px;
 }
 
@@ -745,6 +743,22 @@ em {
 .join-button:hover {
     background-color: black;
     color: #000281;
+}
+
+@media screen and (max-width: 850px){
+    .budget-form-section {
+        width: 100%;
+        height: 800px;
+        
+    }
+    
+    form.budget-signup-form {
+        margin-left: 0;
+        margin-right: 0;
+        width: 87%;
+        
+    }
+
 }
 
 /* Work with us Form */
