@@ -666,7 +666,8 @@ em {
 /* Form Get a Budget */
 
 .form-outer{
-    padding-top: 1vw;
+    clear: both;
+    padding-top: 2vw;
 }
 
 .budget-form-section {
@@ -680,6 +681,8 @@ em {
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
+    padding: 5px;
+    padding-bottom: 70px;
     
 }
 
@@ -751,7 +754,7 @@ em {
 
 @media screen and (max-width: 1250px){
     .budget-form-section {
-     width: 70%;
+     width: 90%;
         
     }
     
@@ -762,9 +765,10 @@ em {
 
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 650px){
     .budget-form-section {
      width: 95%;
+     padding: 0;
         
     }
     
@@ -778,41 +782,67 @@ em {
 /* Work with us Form */
 
 .work-form-section {
-    display: block;
     background: url(/assets/images/workwithus-background.jpeg);
+    display: block;
     background-size: cover;
     background-position: center;
-    width: 800px;
-    height: 800px;
+    width: 80vw;
     align-content: center;
     clear: both;
-    margin: auto;
-    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    padding: 5px;
+    padding-bottom: 70px;
     
     
 }
 
 .work-signup-form {
-    /* margin: 200px 10% 0 0; */
+    margin-top: 5vw;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    align-items: center;
-    margin-left: 180px;
+    width: 35%;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 130px;
-    padding: 30px;
-    border-radius: 10px;
+    position: sticky;
+    padding: 50px;
+    border-radius: 30px;
 }
-
 .work-signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
 
 #myfile{
-    padding-left: 36px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 1250px){
+    .work-form-section {
+     width: 90%;
+        
+    }
+    
+    .work-signup-form {
+        width: 53%;
+        
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .work-form-section {
+     width: 95%;
+     padding: 0;
+        
+    }
+    
+    .work-signup-form {
+        width: 73%;
+        
+    }
+
 }
 
 /* Social netwook footer rules */
