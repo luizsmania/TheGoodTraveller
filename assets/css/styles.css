@@ -13,7 +13,7 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and logo */
+/* logo and menu */
 
 nav h1,
 h2 {
@@ -75,26 +75,28 @@ em {
 
 /* Media Queries for headings and logo */
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
-    #menu{
+@media screen and (max-width: 1200px) {
+    #menu {
         clear: left;
         float: left;
         margin-right: 10%;
         margin-bottom: 20px;
         line-height: 25px;
     }
-    #logo{
+
+    #logo {
         display: inline-block;
         align-items: center;
         text-align: center;
     }
 }
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-    #menu{
+
+/* Media queries Menu For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #menu {
         clear: left;
         float: left;
-        margin-left: 30px; 
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -153,13 +155,14 @@ em {
 }
 
 @media screen and (max-width: 1200px) {
-    #banner-image{
+    #banner-image {
         display: block;
         margin: 0 auto;
         max-height: 900px;
         max-width: 1000px;
     }
-    #cover-text{
+
+    #cover-text {
         max-width: 300px;
         max-height: 200px;
         margin-left: 100px;
@@ -167,19 +170,23 @@ em {
         margin-top: 0;
         background-color: rgba(107, 176, 241, 0.4);
     }
-    #cover-text h2, h3{
+
+    #cover-text h2,
+    h3 {
         max-width: 300px;
         max-height: 120px;
     }
-    
+
 }
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-    #banner-image{
+
+/* Media Queries For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #banner-image {
         max-height: 400px;
         max-width: 800px;
     }
-    #cover-text{
+
+    #cover-text {
         max-width: 210px;
         max-height: 160px;
         margin-left: 50px;
@@ -192,11 +199,14 @@ em {
         font-size: 0.7em;
         font-family: inherit;
     }
-    #cover-text h2, h3{
+
+    #cover-text h2,
+    h3 {
         max-width: 300px;
         max-height: 120px;
     }
-    #cover-text:hover{
+
+    #cover-text:hover {
         font-size: 0.75em;
         max-width: 220px;
         max-height: 170px;
@@ -256,23 +266,28 @@ em {
 }
 
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-    #block1, #block2, #block3{
+@media screen and (max-width: 950px) {
+
+    #block1,
+    #block2,
+    #block3 {
         width: 100%;
         margin: 0 auto;
         padding: 0 auto;
         clear: both;
     }
-    #container h3{
+
+    #container h3 {
         display: block;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
         margin-bottom: 20px;
     }
+
     #container p {
-     margin-bottom: 50px;
-     clear: both;
+        margin-bottom: 50px;
+        clear: both;
     }
 }
 
@@ -326,53 +341,50 @@ em {
 #discover-text {
     font-size: 100%;
     letter-spacing: 4px;
-
     width: 280px;
     height: 150px;
-
     padding: 30px;
     background-color: rgba(107, 176, 241, 0.7);
-
     bottom: 30px;
     right: 150px;
-
     position: absolute;
     border-radius: 10px;
 
 }
 
-#discover-text:hover{
+#discover-text:hover {
     background-color: rgba(0, 2, 129, 0.705);
 }
 
 /* Media Queries */
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
-    #discover-text{
+@media screen and (max-width: 1200px) {
+    #discover-text {
         width: 220px;
         height: 120px;
         font-size: 0.7em;
         padding: 15px;
-      
 
-        
+
+
 
     }
 }
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 420px){
-    #discover-text{
+
+/* For medium screens sizes from 450px wide and down */
+@media screen and (max-width: 420px) {
+    #discover-text {
         right: 15%;
         bottom: 10px;
     }
+
     #discover-image {
         background: url(/assets/images/mediaquerydiscovermebanner.jpeg) no-repeat center center;
         height: 400px;
     }
 }
-@media screen and (max-width: 500px){
 
-}
+@media screen and (max-width: 500px) {}
 
 
 /* Discover our tour page */
@@ -440,20 +452,25 @@ em {
     font-weight: bolder;
 }
 
-@media screen and (max-width:1150px){
+/* Media queries */
+
+@media screen and (max-width:1150px) {
     .discovercity {
         width: 85%;
         min-height: 90vh;
     }
 }
-@media screen and (max-width: 950px){
+
+@media screen and (max-width: 950px) {
     .discovercity {
         width: 80%;
         display: inline;
     }
-    .discovercity-image img{
+
+    .discovercity-image img {
         float: none;
     }
+
     .discovercity-image img {
         width: 70vw;
         height: 100%;
@@ -462,26 +479,33 @@ em {
         margin-left: auto;
         margin-right: auto;
     }
-    .discovercity-text{
+
+    .discovercity-text {
         text-align: center;
         padding: 50px;
     }
+
     .options {
         padding-top: 170px;
     }
 }
-@media screen and (max-width: 600px){
-    .discovercity-text{
+
+/* Media queries for countries options, discover our tours page */
+@media screen and (max-width: 600px) {
+    .discovercity-text {
         padding: 30px;
     }
-    .discovercity-image img{
+
+    .discovercity-image img {
         width: 90vw;
         height: 100vw;
     }
-    .discovercity-text p{
+
+    .discovercity-text p {
         font-size: 1.2em;
     }
-    .discovercity-text a{
+
+    .discovercity-text a {
         font-size: 0.8em;
     }
 }
@@ -522,33 +546,37 @@ em {
 
 /* Image Gallery */
 
-#gallery {    
+#gallery {
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 0;    
+    column-gap: 0;
 }
 
 #gallery img {
     object-fit: cover;
     width: 100%;
-    height: 30em;    
+    height: 30em;
 }
 
+/* Media queries for images gallery */
 @media screen and (max-width: 1250px) {
     #gallery {
         column-count: 2;
     }
+
     #gallery img {
         height: 19em;
     }
-    
+
 }
+
 @media screen and (max-width: 500px) {
     .flag img {
         height: 135px;
         width: 270px;
     }
+
     .countrysummary h1 {
         font-size: 2.3em;
     }
@@ -570,8 +598,8 @@ em {
     background: url(/assets/images/getthebudget-background.jpg) no-repeat center center;
     background-size: cover;
 
-    border-radius: 10px; 
-    
+    border-radius: 10px;
+
 }
 
 .budget-text {
@@ -580,12 +608,13 @@ em {
 }
 
 
-.get-the-budget h1, .get-the-budget h3 {
+.get-the-budget h1,
+.get-the-budget h3 {
     font-size: 0.8vw;
 
 }
 
-.get-the-budget h1{
+.get-the-budget h1 {
     font-size: 3em;
     color: #000281;
     padding-top: 5vw;
@@ -619,44 +648,49 @@ em {
     color: #000281;
     text-transform: uppercase;
 
-} 
+}
 
 .get-the-budget a i {
     margin-left: 5px;
 }
 
-.get-the-budget a:hover{
+.get-the-budget a:hover {
     background-color: rgba(0, 2, 129, 1);
     color: black;
     font-size: 21px;
 }
+/* Media queries for banner linking to get a budget page */
 
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1250px) {
     .get-the-budget {
         width: 70vw;
         height: 30vw;
-   
-        
+
+
     }
-    .budget-text{
+
+    .budget-text {
         font-size: 1.3vw;
     }
+
     .get-the-budget a {
         font-size: 3vw;
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     .get-the-budget {
         width: 90vw;
         height: 60vw;
-   
-        
+
+
     }
-    .budget-text{
+
+    .budget-text {
         font-size: 2.2vw;
         padding: 20px;
     }
+
     .get-the-budget a {
         font-size: 3.5vw;
     }
@@ -665,7 +699,7 @@ em {
 
 /* Form Get a Budget */
 
-.form-outer{
+.form-outer {
     clear: both;
     padding-top: 2vw;
 }
@@ -683,7 +717,7 @@ em {
     border-radius: 30px;
     padding: 5px;
     padding-bottom: 70px;
-    
+
 }
 
 .budget-signup-form {
@@ -697,10 +731,10 @@ em {
     position: sticky;
     padding: 50px;
     border-radius: 30px;
-    
+
 }
 
-.budget-signup-form > h2 {
+.budget-signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -752,29 +786,30 @@ em {
     color: #000281;
 }
 
-@media screen and (max-width: 1250px){
+/* Media queries for get a budget page */
+@media screen and (max-width: 1250px) {
     .budget-form-section {
-     width: 90%;
-        
+        width: 90%;
+
     }
-    
+
     form.budget-signup-form {
         width: 53%;
-        
+
     }
 
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
     .budget-form-section {
-     width: 95%;
-     padding: 0;
-        
+        width: 95%;
+        padding: 0;
+
     }
-    
+
     form.budget-signup-form {
         width: 73%;
-        
+
     }
 
 }
@@ -794,8 +829,8 @@ em {
     border-radius: 30px;
     padding: 5px;
     padding-bottom: 70px;
-    
-    
+
+
 }
 
 .work-signup-form {
@@ -809,38 +844,40 @@ em {
     padding: 50px;
     border-radius: 30px;
 }
-.work-signup-form > h2 {
+
+.work-signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
 
-#myfile{
+#myfile {
     padding: 30px;
 }
 
-@media screen and (max-width: 1250px){
+/* Media queries for Work with us Page */
+@media screen and (max-width: 1250px) {
     .work-form-section {
-     width: 90%;
-        
+        width: 90%;
+
     }
-    
+
     .work-signup-form {
         width: 53%;
-        
+
     }
 
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
     .work-form-section {
-     width: 95%;
-     padding: 0;
-        
+        width: 95%;
+        padding: 0;
+
     }
-    
+
     .work-signup-form {
         width: 73%;
-        
+
     }
 
 }
@@ -867,4 +904,3 @@ footer {
     padding: 5%;
     color: #000281;
 }
-
