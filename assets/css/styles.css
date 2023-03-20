@@ -305,7 +305,7 @@ em {
 #discover-image {
     height: 600px;
     width: 100%;
-    background: url(/assets/images/discovermebanner.png) no-repeat center center;
+    background: url(../images/discovermebanner.png) no-repeat center center;
     background-size: 98.7% 600px;
     border-radius: 60px;
 
@@ -379,7 +379,7 @@ em {
     }
 
     #discover-image {
-        background: url(/assets/images/mediaquerydiscovermebanner.jpeg) no-repeat center center;
+        background: url(../images/mediaquerydiscovermebanner.jpeg) no-repeat center center;
         height: 400px;
     }
 }
@@ -595,7 +595,7 @@ em {
     height: 25vw;
     text-align: center;
     font-size: 1em;
-    background: url(/assets/images/getthebudget-background.jpg) no-repeat center center;
+    background: url(../images/getthebudget-background.jpg) no-repeat center center;
     background-size: cover;
 
     border-radius: 10px;
@@ -706,7 +706,7 @@ em {
 
 .budget-form-section {
     display: block;
-    background: url(/assets/images/form-background.jpg);
+    background: url(../images/form-background.jpg);
     background-size: cover;
     background-position: center;
     width: 80vw;
@@ -817,7 +817,7 @@ em {
 /* Work with us Form */
 
 .work-form-section {
-    background: url(/assets/images/workwithus-background.jpeg);
+    background: url(../images/workwithus-background.jpeg);
     display: block;
     background-size: cover;
     background-position: center;
