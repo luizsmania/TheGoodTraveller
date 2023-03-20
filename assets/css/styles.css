@@ -105,7 +105,7 @@ em {
 /* Banner image and cover text */
 
 #banner-outer {
-    height: 100%px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -273,7 +273,6 @@ em {
     #block3 {
         width: 100%;
         margin: 0 auto;
-        padding: 0 auto;
         clear: both;
     }
 
