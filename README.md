@@ -1,4 +1,6 @@
-*The Good Traveller *
+##The Good Traveller
+
+Welcome USER_NAME,
 
 The Good Traveller is an agency tour which offers five different tours in five different countries, you can get to know the options, visit the gallery of videos and pictures for each one, and once you decided where you want to go you can easily apply for a budget, The Good Traveller agency takes care of all the boring part for you so you won't need to stress yourself with all the headaches a trip may cause you.
 
