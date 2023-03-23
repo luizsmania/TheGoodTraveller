@@ -140,6 +140,18 @@ This beautiful website presents many diferent sections for informing the user an
 
 Debugging occurred during the process of development and testing as the website was built as testing was done constantly as errors "bugs" were detected during testing I would use dev tools to see and test what would solve the particular error that occurred and or do searches in the Technologies and support mentioned above and fix the errors as they occurred.
 
+When I deployed my project to GitHub Pages I discovered my project was broken, the links to the other files (CSS and images) did not work.
+I discovered this was because I had used absolute file paths such as this in my code
+
+Removing the starting "/" fixed the problem. 
+
+> link rel="stylesheet" heref="/assets/css/style.css"
+
+For images I put ".." at the beggining
+
+> background: url(../images/index-banner-background.webp) no-repeat center center;
+
+
 
 # Validator Testing
 
