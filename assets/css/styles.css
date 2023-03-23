@@ -114,7 +114,7 @@ em {
 #banner-image {
     height: 600px;
     width: 100%;
-    background: url(../images/index-banner-background.jpeg) no-repeat center center;
+    background: url(../images/index-banner-background.webp) no-repeat center center;
     background-size: 98.7% 600px;
     border-radius: 60px;
 
@@ -378,7 +378,7 @@ em {
     }
 
     #discover-image {
-        background: url(../images/mediaquerydiscovermebanner.jpeg) no-repeat center center;
+        background: url(../images/mediaquerydiscovermebanner.webp) no-repeat center center;
         height: 400px;
     }
 }
