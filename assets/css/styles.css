@@ -13,6 +13,10 @@ body {
     color: #3a3a3a;
 }
 
+@font-face{
+    font-display: swap;
+}
+
 /* logo and menu */
 
 nav h1,
