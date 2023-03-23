@@ -90,6 +90,7 @@ This beautiful website presents many diferent sections for informing the user an
  
     + HTML is used to provide the structure and content of the website.
     + CSS is used via link to the HTML to provided style the pages.
+    + Java Script is used via script at the bottom of the page for animating the pop up window when submitting a form
     + Code Institute lessons and the Love Running played a big role in assisting with my project.
     + Love Running provided the main structure and information for my Header and footer as well as the animation information and inspiration for the Home page first image and the image gallery in the Gallery and Tour section.
     + Stack Overflow provided a lot of understanding and additional html code that I had to look up in order to do the image links on the home page and understand the flex and row and column for my webpage as well as the understanding of iframes. 
@@ -207,6 +208,7 @@ For images I put ".." at the beggining
    * I am Responsive for a fantastic spot to see a visual of responsiveness
    * Lighthouse testing system.
    * Pexels - for providing good quality free copyright images
+   * Easy Tutorials - inspiration for Pop Up window when submitting a form.
 
 * Copied Code / Code assistance  
 As stated in Technologies / Support Used I used and sort out help and code from numerous sources as well as fonts and icons. However, I did exclusively get inspiration from Love running for the banner with text overlay. Stack over flow played a huge roll in my overall development, I got Forms OnInput value for users choosings only numbers from there. Also the animation when hovering the countries name in the Meet our Tour Pages.
