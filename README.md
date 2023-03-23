@@ -11,7 +11,7 @@ Users of this website will be able to find a brief description of the services o
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This beautiful website presents many diferent sections for informing the user and captivating their attention through the diverse medias, as well contains section for applying for a budget on the interested tour, and demonstrating interest in a job, through the Work With Us form
 
 ### Existing Features
 
@@ -24,35 +24,35 @@ In this section, you should go over the different parts of your project, and des
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The website's landing page features a photo with text overlay to grab the visitor's attention and pique their interest in taking a tour.
+  - This part also recaps the website's objectives and introduces the user to The Good Traveller.
 
 ![Landing Page]([https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png](https://i.imgur.com/ZxI2qnv.png))
 
 - __Three Reasons Section__
 
-  - This section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The user will be able to view the advantages of booking a tour with our company in this area, along with a brief explanation of the services provided.
+  - They will also be able to see our firm's values in this section. This ought to persuade the user to think about picking us for a tour.
 
 ![Three Reasons](https://i.imgur.com/AVvzNo2.png)
 
 - __Discover our Possibilities section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
+ - This section will allow the user to know more deeply about each of the 5 tours offered by us.
+ - This section contains banners to illustrate the tours, as well as their respective names and a brief description of the country in question.
+ - The names of each country are also clickable links that redirect the user to the respective gallery pages with media for each tour.
+ 
 ![Discover Possibilities](https://i.imgur.com/482FFd6.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - Links to the pertinent social media platforms are provided in the footer section. The links will open in a new tab for the user's convenience. 
+  - The user benefits from the footer since it encourages them to stay engaged on social media.
 
 ![Footer](https://i.imgur.com/0ksIXGE.png)
 
 - __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
+  - The gallery will provide the user with supporting images to see what the respective tour's cities look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
