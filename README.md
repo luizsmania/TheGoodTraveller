@@ -1,4 +1,4 @@
-## The Good Traveller
+# The Good Traveller
 
 Welcome Luiz Smania,
 
@@ -9,70 +9,76 @@ Users of this website will be able to find a brief description of the services o
 ![Picture of the website in different devices](https://i.imgur.com/CzYGutQ.png)
 
 
-## Features 
+# Features 
 
 This beautiful website presents many diferent sections for informing the user and captivating their attention through the diverse medias, as well contains section for applying for a quote on the interested tour, and demonstrating interest in a job, through the Work With Us form
 
-- __Navigation Bar__
+## Navigation Bar
 
  + The entire responsive navigation bar is included on all three pages and is same in each one for ease of navigation. It contains links to the Home Page, Gallery, Get a Quote, and Work With Us page.
  + With the help of this section, users will be able to move between pages on all devices without constantly pressing the "back" button to return to the previous page. 
 
 ![Nav Bar](https://i.imgur.com/k3Mnuot.png)
 
-- __The landing page image__
+ ## The landing page image
 
   + The website's landing page features a photo with text overlay to grab the visitor's attention and pique their interest in taking a tour.
   + This part also recaps the website's objectives and introduces the user to The Good Traveller.
 
 ![Landing Page](https://i.imgur.com/ZxI2qnv.png)
 
-- __Three Reasons Section__
+## Three Reasons Section
 
   + The user will be able to view the advantages of booking a tour with our company in this area, along with a brief explanation of the services provided.
   + They will also be able to see our firm's values in this section. This ought to persuade the user to think about picking us for a tour.
 
 ![Three Reasons](https://i.imgur.com/AVvzNo2.png)
 
-- __Discover our Possibilities section__
+## Discover our Possibilities section
  + This section will allow the user to know more deeply about each of the 5 tours offered by us.
  + This section contains banners to illustrate the tours, as well as their respective names and a brief description of the country in question.
  + The names of each country are also clickable links that redirect the user to the respective gallery pages with media for each tour.
  
 ![Discover Possibilities](https://i.imgur.com/482FFd6.png)
 
-- __The Footer__ 
+## The Footer
 
   + Links to the pertinent social media platforms are provided in the footer section. The links will open in a new tab for the user's convenience. 
   + The user benefits from the footer since it encourages them to stay engaged on social media.
 
 ![Footer](https://i.imgur.com/0ksIXGE.png)
 
-- __Discover Our Tours Page__
+## Discover Our Tours Page
 
   + This page will provide the user with supporting images to see what the respective tour's cities look like. 
   + This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
 ![Discover our Tours Page](https://i.imgur.com/037cnRk.png)
 
-- __Gallery Page__
+## Gallery Page__
 
   + Each tour also has a unique and exclusive media page with photos and video.
   + This page allows the user to be dazzled by the most beautiful photos and videos of the tour in question, and in its footer there is a banner with a link to redirect the user to the page to get a quote
 
 ![Gallery Page](https://i.imgur.com/HJZEfB8.png)
 
-- __The Get a Quote Page__
+## The Get a Quote Page__
 
   + This page allows the user to easily apply, through a form, to receive a quote based on the information provided, such as tour option and number of days required.
 
 ![Get a Quote](https://i.imgur.com/BRwOVIG.png)
 
-- __The Work With Us Page__
+## The Work With Us Page__
 
   + For those truly interested in the tourism area, our website has a dedicated area to apply through a form for some vacancies, it also has vacancies in the IT area
 
 ![Work With Us](https://i.imgur.com/SeKBS5D.png)
+
+## Form Submitted Page__
+
+  + After the user submits the form they get a pop up confirm message and also it redirects them for Form Submitted Page
+
+![Form Submitted Page](https://i.imgur.com/wi6LTSH.png)
 
 # Features Left to Implement
 
@@ -134,7 +140,9 @@ This beautiful website presents many diferent sections for informing the user an
    + Responsive design media queries tested through Am I Responsive
    + Lighthouse used to test webpage for Performance,Accessibility,Best Practice and SEO
    + Deployed project was tested in my default browser Microsoft Edge as wells as Google Chrome and Firefox.
-![Light House Test](https://i.imgur.com/N2wv3yv.png)
+   + Results of Light House test below <br>
+   <br>
+![Light House Test](https://i.imgur.com/PgHV8CN.png)
 
 # Bugs
 
