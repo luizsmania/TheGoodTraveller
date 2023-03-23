@@ -820,6 +820,7 @@ em {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    color: #fafafa;
 }
 
 .text-input:hover {
@@ -827,12 +828,13 @@ em {
 }
 
 .select-input {
-    background: transparent;
+    background-color: rgba(60, 60, 60, 0.6);
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid #000281;
     border-radius: 2px;
+    color: #fff;
 }
 
 .select-input:hover {
