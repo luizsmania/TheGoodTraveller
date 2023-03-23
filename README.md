@@ -1,21 +1,21 @@
 ## The Good Traveller
 
-Welcome USER_NAME,
+Welcome Luiz Smania,
 
-The Good Traveller is an tour agency which offers five different tours in different countries, you can get to know the options, visit the gallery of videos and pictures for each one, and once you decided where you want to go you can easily apply for a budget using a form, The Good Traveller agency takes care of all the boring part for you so you won't need to stress yourself with all the headaches a trip may cause you.
+The Good Traveller is an tour agency which offers five different tours in different countries, you can get to know the options, visit the gallery of videos and pictures for each one, and once you decided where you want to go you can easily apply for a quote using a form, The Good Traveller agency takes care of all the boring part for you so you won't need to stress yourself with all the headaches a trip may cause you.
 
-Users of this website will be able to find a brief description of the services offered, a detailed summary of the five tours, a gallery with media relating each tour, a form for applying to receive a budget through email, and a form for those interested in working with The Good Traveller company, in which you can select the position you're insterested and attaching your CV as well.
+Users of this website will be able to find a brief description of the services offered, a detailed summary of the five tours, a gallery with media relating each tour, a form for applying to receive a quote through email, and a form for those interested in working with The Good Traveller company, in which you can select the position you're insterested and attaching your CV as well.
 
 ![Picture of the website in different devices](https://i.imgur.com/CzYGutQ.png)
 
 
 ## Features 
 
-This beautiful website presents many diferent sections for informing the user and captivating their attention through the diverse medias, as well contains section for applying for a budget on the interested tour, and demonstrating interest in a job, through the Work With Us form
+This beautiful website presents many diferent sections for informing the user and captivating their attention through the diverse medias, as well contains section for applying for a quote on the interested tour, and demonstrating interest in a job, through the Work With Us form
 
 - __Navigation Bar__
 
- + The entire responsive navigation bar is included on all three pages and is same in each one for ease of navigation. It contains links to the Home Page, Gallery, Get a Budget, and Work With Us page.
+ + The entire responsive navigation bar is included on all three pages and is same in each one for ease of navigation. It contains links to the Home Page, Gallery, Get a Quote, and Work With Us page.
  + With the help of this section, users will be able to move between pages on all devices without constantly pressing the "back" button to return to the previous page. 
 
 ![Nav Bar](https://i.imgur.com/k3Mnuot.png)
@@ -55,11 +55,18 @@ This beautiful website presents many diferent sections for informing the user an
 
 ![Discover our Tours Page](https://i.imgur.com/037cnRk.png)
 
-- __The Get a Budget Page__
+- __Gallery Page__
+
+  + Each tour also has a unique and exclusive media page with photos and video.
+  + This page allows the user to be dazzled by the most beautiful photos and videos of the tour in question, and in its footer there is a banner with a link to redirect the user to the page to get a quote
+
+![Gallery Page](https://i.imgur.com/HJZEfB8.png)
+
+- __The Get a Quote Page__
 
   + This page allows the user to easily apply, through a form, to receive a quote based on the information provided, such as tour option and number of days required.
 
-![Get a Budget](https://i.imgur.com/BRwOVIG.png)
+![Get a Quote](https://i.imgur.com/BRwOVIG.png)
 
 - __The Work With Us Page__
 
@@ -116,7 +123,7 @@ This beautiful website presents many diferent sections for informing the user an
       1. That the site was about Tour Agency,
       2. The navigation was clear and I could easily go to the information I was seeking,
       3. I was informed and drawn into the site,
-      4. I was able to seek for more information via links and via a get a budget form. 
+      4. I was able to seek for more information via links and via a get a quote form. 
 
      
    + Testing done via git preview.   

@@ -586,10 +586,10 @@ em {
 
 }
 
-/* Get the budget Banner */
+/* Get the Quote Banner */
 
 
-.get-the-budget {
+.get-the-quote {
     margin-left: auto;
     margin-right: auto;
     margin-top: 6vw;
@@ -605,25 +605,25 @@ em {
 
 }
 
-.budget-text {
+.quote-text {
     color: black;
     font-size: 0.8vw;
 }
 
 
-.get-the-budget h1,
-.get-the-budget h3 {
+.get-the-quote h1,
+.get-the-quote h3 {
     font-size: 0.8vw;
 
 }
 
-.get-the-budget h1 {
+.get-the-quote h1 {
     font-size: 3em;
     color: #000281;
     padding-top: 5vw;
 }
 
-.get-the-budget h3 {
+.get-the-quote h3 {
     font-size: 1.5em;
     padding-top: 3vw;
     margin-right: auto;
@@ -631,17 +631,17 @@ em {
     text-align: center;
 }
 
-.get-the-budget p {
+.get-the-quote p {
     text-align: center;
 }
 
-.budget-anchor {
+.quote-anchor {
     padding-top: 5vw;
 
 
 }
 
-.get-the-budget a {
+.get-the-quote a {
     font-size: 1.2vw;
     font-weight: bolder;
     background-color: hsla(0, 0%, 100%, 0.350);
@@ -653,61 +653,61 @@ em {
 
 }
 
-.get-the-budget a i {
+.get-the-quote a i {
     margin-left: 5px;
 }
 
-.get-the-budget a:hover {
+.get-the-quote a:hover {
     background-color: rgba(0, 2, 129, 1);
     color: black;
     font-size: 21px;
 }
-/* Media queries for banner linking to get a budget page */
+/* Media queries for banner linking to get a quote page */
 
 @media screen and (max-width: 1250px) {
-    .get-the-budget {
+    .get-the-quote {
         width: 70vw;
         height: 30vw;
 
 
     }
 
-    .budget-text {
+    .quote-text {
         font-size: 1.3vw;
     }
 
-    .get-the-budget a {
+    .get-the-quote a {
         font-size: 3vw;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .get-the-budget {
+    .get-the-quote {
         width: 90vw;
         height: 60vw;
 
 
     }
 
-    .budget-text {
+    .quote-text {
         font-size: 2.2vw;
         padding: 20px;
     }
 
-    .get-the-budget a {
+    .get-the-quote a {
         font-size: 3.5vw;
     }
 }
 
 
-/* Form Get a Budget */
+/* Form Get a quote */
 
 .form-outer {
     clear: both;
     padding-top: 2vw;
 }
 
-.budget-form-section {
+.quote-form-section {
     display: block;
     background: url(../images/form-background.jpg);
     background-size: cover;
@@ -723,7 +723,7 @@ em {
 
 }
 
-.budget-signup-form {
+.quote-signup-form {
 
     margin-top: 5vw;
     color: #fff;
@@ -737,7 +737,7 @@ em {
 
 }
 
-.budget-signup-form>h2 {
+.quote-signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -789,14 +789,14 @@ em {
     color: #000281;
 }
 
-/* Media queries for get a budget page */
+/* Media queries for get a quote page */
 @media screen and (max-width: 1250px) {
-    .budget-form-section {
+    .quote-form-section {
         width: 90%;
 
     }
 
-    form.budget-signup-form {
+    form.quote-signup-form {
         width: 53%;
 
     }
@@ -804,13 +804,13 @@ em {
 }
 
 @media screen and (max-width: 650px) {
-    .budget-form-section {
+    .quote-form-section {
         width: 95%;
         padding: 0;
 
     }
 
-    form.budget-signup-form {
+    form.quote-signup-form {
         width: 73%;
 
     }
