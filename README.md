@@ -17,8 +17,8 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+ - The entire responsive navigation bar is included on all three pages and is same in each one for ease of navigation. It contains links to the Home Page, Gallery, Get a Budget, and Work With Us page.
+  - With the help of this section, users will be able to move between pages on all devices without constantly pressing the "back" button to return to the previous page. 
 
 ![Nav Bar](https://i.imgur.com/k3Mnuot.png)
 
