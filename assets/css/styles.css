@@ -659,7 +659,6 @@ em {
 
 /* Get the Quote Banner */
 
-
 .get-the-quote {
     margin-left: auto;
     margin-right: auto;
@@ -671,9 +670,7 @@ em {
     font-size: 1em;
     background: url(../images/getthebudget-background.jpg) no-repeat center center;
     background-size: cover;
-
     border-radius: 10px;
-
 }
 
 .quote-text {
@@ -693,7 +690,6 @@ em {
     color: #000281;
     padding-top: 5vw;
 }
-
 .get-the-quote h3 {
     font-size: 1.5em;
     padding-top: 3vw;
@@ -701,17 +697,12 @@ em {
     margin-left: auto;
     text-align: center;
 }
-
 .get-the-quote p {
     text-align: center;
 }
-
 .quote-anchor {
     padding-top: 5vw;
-
-
 }
-
 .get-the-quote a {
     font-size: 1.2vw;
     font-weight: bolder;
@@ -723,11 +714,9 @@ em {
     text-transform: uppercase;
 
 }
-
 .get-the-quote a i {
     margin-left: 5px;
 }
-
 .get-the-quote a:hover {
     background-color: rgba(0, 2, 129, 1);
     color: black;
@@ -759,25 +748,20 @@ em {
 
 
     }
-
     .quote-text {
         font-size: 2.2vw;
         padding: 20px;
     }
-
     .get-the-quote a {
         font-size: 3.5vw;
     }
 }
-
-
 /* Form Get a quote */
 
 .form-outer {
     clear: both;
     padding-top: 2vw;
 }
-
 .quote-form-section {
     display: block;
     background: url(../images/form-background.jpg);
@@ -793,9 +777,7 @@ em {
     padding-bottom: 70px;
 
 }
-
 .quote-signup-form {
-
     margin-top: 5vw;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -807,12 +789,10 @@ em {
     border-radius: 30px;
 
 }
-
 .quote-signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
-
 .text-input {
     background: transparent;
     width: 100%;
@@ -822,11 +802,9 @@ em {
     border-radius: 2px;
     color: #fafafa;
 }
-
 .text-input:hover {
     border-color: #000281;
 }
-
 .select-input {
     background-color: rgba(60, 60, 60, 0.6);
     width: 100%;
@@ -836,11 +814,9 @@ em {
     border-radius: 2px;
     color: #fff;
 }
-
 .select-input:hover {
     border-color: #000281;
 }
-
 .join-button {
     margin-left: auto;
     margin-right: auto;
@@ -854,7 +830,6 @@ em {
     display: block;
     border-radius: 10px;
 }
-
 .join-button:hover {
     background-color: black;
     color: #000281;
@@ -864,14 +839,10 @@ em {
 @media screen and (max-width: 1250px) {
     .quote-form-section {
         width: 90%;
-
     }
-
     form.quote-signup-form {
         width: 53%;
-
     }
-
 }
 
 @media screen and (max-width: 650px) {
@@ -880,7 +851,6 @@ em {
         padding: 0;
 
     }
-
     form.quote-signup-form {
         width: 73%;
 
@@ -930,31 +900,7 @@ em {
 
 /* Media queries for Work with us Page */
 @media screen and (max-width: 1250px) {
-    .work-form-section {
-        width: 90%;
-
-    }
-
-    .work-signup-form {
-        width: 53%;
-
-    }
-
-}
-
-@media screen and (max-width: 650px) {
-    .work-form-section {
-        width: 95%;
-        padding: 0;
-
-    }
-
-    .work-signup-form {
-        width: 73%;
-
-    }
-
-}
+    .work-form-section {width: 90%;}.work-signup-form {width: 53%;}}@media screen and (max-width: 650px) {.work-form-section {width: 95%;padding: 0;}.work-signup-form {width: 73%;}}
 
 
 /* Form Submitted Page */
@@ -989,6 +935,7 @@ em {
    padding-top: 140px;
 }
 
+/* Media queries */
 @media screen and (max-width: 720px){
     #wrapper{
         padding-top: 50px;
@@ -999,6 +946,7 @@ em {
         margin-bottom: 50px;
     }
 }
+/* Pop Up animation when submitting a form */
 
 .popup{
     width: 400px;
@@ -1015,6 +963,7 @@ em {
     transition: transform 0.4s, top 0.4s;
 }
 
+/* Media queries for pop up animation */
 @media screen and (max-width: 490px){
     .popup{
         width: 300px;
