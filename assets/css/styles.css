@@ -33,12 +33,13 @@ h2 {
     font-size: 280%;
     margin-left: 10px;
     color: #000281;
+    font-weight: bolder;
     letter-spacing: 2px;
 }
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 
 #logo,
@@ -68,9 +69,11 @@ h2 {
 em {
     color: #000281;
     font-style: normal;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 110%;
+    font-size: 120%;
+}
+
+em {
+    font-weight: bolder;
 }
 
 .active i {
@@ -79,19 +82,23 @@ em {
 
 /* Media Queries for headings and logo */
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
     #menu {
         clear: left;
         float: left;
         margin-right: 10%;
         margin-bottom: 20px;
         line-height: 25px;
+        margin-left: 30px;
+        width: 100%;
+       
     }
 
     #logo {
         display: inline-block;
         align-items: center;
         text-align: center;
+        width: 100%;
     }
 }
 
@@ -103,6 +110,46 @@ em {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+
+    }
+}
+
+@media screen and (max-width: 785px){
+    #menu {
+        margin-left: 140px;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 681px){
+    #menu {
+        margin-left: 140px;
+        width: 40%;
+        margin-right: 0;
+    }
+    #menu li {
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 570px){
+    #menu {
+        width: 80%;
+        margin-left: 25%;
+    }
+    #menu li {
+        float: none;
+        list-style-type: none;
+        margin-right: 0;
+        font-weight: bolder;
+    }
+
+}
+
+@media screen and (max-width: 452px){
+    #logo {
+        margin-top: 20px;
+        line-height: 40px;
+        height: 100px;
     }
 }
 
@@ -147,15 +194,12 @@ em {
     right: 150px;
 
     position: absolute;
-    border-radius: 10px;
+    border-radius: 15px;
 
 }
 
 #cover-text:hover {
     background-color: rgba(0, 2, 129, 0.7);
-    font-size: 102%;
-    border-radius: 15px;
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -177,8 +221,8 @@ em {
 
     #cover-text h2,
     h3 {
-        max-width: 300px;
-        max-height: 120px;
+        /* max-width: 300px;
+        max-height: 120px; */
     }
 
 }
@@ -221,12 +265,12 @@ em {
 /* Description of our services */
 
 #container {
-    margin-top: 10vw;
     align-items: center;
     text-align: center;
-    width: 98.7%;
+    width: 100%;
     height: 100%;
-    margin-bottom: 10vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
 
 }
 
@@ -249,23 +293,30 @@ em {
     text-align: center;
     font-size: 1.2em;
     font-weight: bolder;
+    width: 100%;
+}
+
+#container i {
+    margin-left: 10px;
 }
 
 #block1 {
     /*Expert Travel Advice*/
-    width: 33.3%;
+    width: 30%;
     float: left;
+    margin-left: 40px;
 }
 
 #block2 {
     /*Tailor Made Packages*/
-    width: 33.3%;
+    width: 30%;
     float: right;
+    margin-right: 40px;
 }
 
 #block3 {
     /*World Wide Destinations */
-    width: 33.3%;
+    width: 30%;
     margin: 0 auto;
 }
 
@@ -302,7 +353,6 @@ em {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: 100px;
 }
 
 #discover-image {
@@ -359,9 +409,22 @@ em {
     background-color: rgba(0, 2, 129, 0.705);
 }
 
+#discover-text h3:hover{
+    font-size: 125%;
+    padding-bottom: 50px;
+    text-shadow: 3px 3px #252525;
+}
+
 /* Media Queries */
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    #discover-image {
+        display: block;
+        margin: 0 auto;
+        max-height: 900px;
+        max-width: 1000px;
+    }
+
     #discover-text {
         width: 220px;
         height: 120px;
@@ -374,8 +437,16 @@ em {
     }
 }
 
+@media screen and (max-width: 950px) {
+    #discover-image {
+        max-height: 400px;
+        max-width: 800px;
+        display: block;
+        margin: 0 auto;
+    } }
+
 /* For medium screens sizes from 450px wide and down */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     #discover-text {
         right: 15%;
         bottom: 10px;
@@ -744,7 +815,6 @@ em {
 
 .text-input {
     background: transparent;
-    color: #000281;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -758,7 +828,6 @@ em {
 
 .select-input {
     background: transparent;
-    color: #000281;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -887,7 +956,6 @@ em {
 
 /* Social netwook footer rules */
 footer {
-    height: 150px;
     clear: both;
 }
 
