@@ -169,7 +169,7 @@ Debugging occurred during the process of development and testing as the website 
 
 # Credits
 
-   * Code Institute without who I would have had no base to begin a project & Readme.md Template .https://codeinstitute.net/ie/
+   * Code Institute without who I would have had no base to begin a project & Readme.md Template. https://codeinstitute.net/ie/
    * GitHub for my workspace and saving all my work as well as my deployed project . https://github.com/
    * The Slack community - for someone always been there no matter the time and with advice or direction. https://slack.com
    * Google Fonts for my font choose for the project. https://fonts.google.com
