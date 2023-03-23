@@ -1,92 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dublin based tour agency for amazing tours arounds the globe">
     <meta name="keywords"
-        content="dublin, travelling, tours, agency, cheap, countries, trips, bucket list, amazing trips">
+      content="dublin, travelling, tours, agency, cheap, countries, trips, bucket list, amazing trips">
     <meta name="author" content="L. S. Goldfish">
     <title>The Good Traveller</title>
     <!-- Link to stylesheet and preload fonts-->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans:wght@300&family=Tilt+Prism&display=swap" as="style">
     <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-
-<body>
+  </head>
+  <body>
     <!-- menu -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">The Good Traveller</h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="workwithus.html">Work With Us <i class="fa-solid fa-briefcase"></i></a>
-                </li>
-                <li>
-                    <a class="active" href="getabudget.html"><em>Get a Budget</em> <i
-                            class="fa-solid fa-comments-dollar"></i></a>
-                </li>
-                <li>
-                    <a href="discoverourtours.html">Discover Our Tours <i class="fa-solid fa-route"></i></a>
-                </li>
-                <li>
-                    <a href="index.html">Home <i class="fa-solid fa-house"></i></a>
-                </li>
-
-            </ul>
-        </nav>
+      <a href="index.html">
+        <h1 id="logo">The Good Traveller</h1>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="workwithus.html">Work With Us <i class="fa-solid fa-briefcase"></i></a>
+          </li>
+          <li>
+            <a class="active" href="getabudget.html"><em>Get a Budget</em> <i
+              class="fa-solid fa-comments-dollar"></i></a>
+          </li>
+          <li>
+            <a href="discoverourtours.html">Discover Our Tours <i class="fa-solid fa-route"></i></a>
+          </li>
+          <li>
+            <a href="index.html">Home <i class="fa-solid fa-house"></i></a>
+          </li>
+        </ul>
+      </nav>
     </header>
-
     <!-- Form -->
-   <div class="form-outer">
-    <section class="budget-form-section">
+    <div class="form-outer">
+      <section class="budget-form-section">
         <form class="budget-signup-form" method="GET">
-            <h2>Get your Budget through E-Mail!</h2>
-            <label for="fname">First Name</label>
-            <input id="fname" class="text-input" type="text" name="first_name" required>
-            <label for="lname">Last Name</label>
-            <input id="lname" class="text-input" type="text" name="last_name" required>
-            <label for="email">Email Address</label>
-            <input id="email" class="text-input" type="email" name="email_address" required>
-            <label for="tourofchoice">Where to?</label><br>
-            <select class="select-input" id="tourofchoice" name="tourofchoice" required>
-                <option value="" disabled selected>Select your option</option>
-                <option value="cuba">Havana</option>
-                <option value="jamaica">Kingston</option>
-                <option value="brazil">Rio de Janeiro</option>
-                <option value="egypt">Cairo</option>
-                <option value="austria">Vienna</option>
-            </select>
-            <label for="age">How old are you?</label>
-            <input class="text-input" id="age" name="age" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" required>
-            <label for="tripduration">How many days are you going to travel?</label>
-            <input class="text-input" id="tripduration" name="tripduration" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" required>
-            <input class="join-button" type="submit" value="Submit">
-
+          <h2>Get your Budget through E-Mail!</h2>
+          <label for="fname">First Name</label>
+          <input id="fname" class="text-input" type="text" name="first_name" required>
+          <label for="lname">Last Name</label>
+          <input id="lname" class="text-input" type="text" name="last_name" required>
+          <label for="email">Email Address</label>
+          <input id="email" class="text-input" type="email" name="email_address" required>
+          <label for="tourofchoice">Where to?</label><br>
+          <select class="select-input" id="tourofchoice" name="tourofchoice" required>
+            <option value="" disabled selected>Select your option</option>
+            <option value="cuba">Havana</option>
+            <option value="jamaica">Kingston</option>
+            <option value="brazil">Rio de Janeiro</option>
+            <option value="egypt">Cairo</option>
+            <option value="austria">Vienna</option>
+          </select>
+          <label for="age">How old are you?</label>
+          <input class="text-input" id="age" name="age" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" required>
+          <label for="tripduration">How many days are you going to travel?</label>
+          <input class="text-input" id="tripduration" name="tripduration" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" required>
+          <input class="join-button" type="submit" value="Submit">
         </form>
-    </section>
-</div> 
-
-
-
+      </section>
+    </div>
     <!-- social networks footer -->
     <footer>
-        <ul class="social-networks">
-            <li><a href="https://www.facebook.com" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li><a href="https://www.twitter.com" aria-label="Twitter" target="_blank" rel="noopener"><i
-                        class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com" aria-label="Youtube" target="_blank" rel="noopener"><i
-                        class="fab fa-youtube-square"></i></a></li>
-            <li><a href="https://www.instagram.com" aria-label="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
+      <ul class="social-networks">
+        <li><a href="https://www.facebook.com" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li><a href="https://www.twitter.com" aria-label="Twitter" target="_blank" rel="noopener"><i
+          class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.youtube.com" aria-label="Youtube" target="_blank" rel="noopener"><i
+          class="fab fa-youtube-square"></i></a></li>
+        <li><a href="https://www.instagram.com" aria-label="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
     </footer>
     <script src="https://kit.fontawesome.com/4d84fb1b4f.js" crossorigin="anonymous"></script>
-</body>
-
+  </body>
 </html>

@@ -2,7 +2,7 @@
 
 Welcome USER_NAME,
 
-The Good Traveller is an agency tour which offers five different tours in five different countries, you can get to know the options, visit the gallery of videos and pictures for each one, and once you decided where you want to go you can easily apply for a budget, The Good Traveller agency takes care of all the boring part for you so you won't need to stress yourself with all the headaches a trip may cause you.
+The Good Traveller is an tour agency which offers five different tours in different countries, you can get to know the options, visit the gallery of videos and pictures for each one, and once you decided where you want to go you can easily apply for a budget using a form, The Good Traveller agency takes care of all the boring part for you so you won't need to stress yourself with all the headaches a trip may cause you.
 
 Users of this website will be able to find a brief description of the services offered, a detailed summary of the five tours, a gallery with media relating each tour, a form for applying to receive a budget through email, and a form for those interested in working with The Good Traveller company, in which you can select the position you're insterested and attaching your CV as well.
 
@@ -78,7 +78,7 @@ This beautiful website presents many diferent sections for informing the user an
     + HTML is used to provide the structure and content of the website.
     + CSS is used via link to the HTML to provided style the pages.
     + Code Institute lessons and the Love Running played a big role in assisting with my project.
-    + Love Running provided the main structure and information for my Header and footer as well as the animation information and inspiration for the Home page first image and the image gallery in the Gallery and Tour section. In the contact us section from loved running contact form I have use the contact us form landing site in order to have my contact form land somewhere.
+    + Love Running provided the main structure and information for my Header and footer as well as the animation information and inspiration for the Home page first image and the image gallery in the Gallery and Tour section.
     + Stack Overflow provided a lot of understanding and additional html code that I had to look up in order to do the image links on the home page and understand the flex and row and column for my webpage as well as the understanding of iframes. 
     + Git used to code within and provided backups of all my code.
     + GitHub for my repository and external project deployment.
@@ -88,7 +88,7 @@ This beautiful website presents many diferent sections for informing the user an
 
 # Testing
 
-  * Testing During development of the pages was done through the project to see how the project looked and felt
+  * Testing During development of the pages was done throughout the project to see how the project looked and felt
 
   * Manual Testing
 
@@ -121,8 +121,8 @@ This beautiful website presents many diferent sections for informing the user an
      
    + Testing done via git preview.   
    + Testing of the media queries was carried out via dev tools on Microsoft Edge.
-   + HTML was tested through W3C Html validator
-   + CSS was tested through W3C Css Validator 
+   + HTML files were tested through W3C Html validator
+   + CSS file was tested through W3C Css Validator 
    + HTML was run through an online formatter, FreeFormatter.com
    + Responsive design media queries tested through Am I Responsive
    + Lighthouse used to test webpage for Performance,Accessibility,Best Practice and SEO
@@ -150,7 +150,7 @@ Debugging occurred during the process of development and testing as the website 
     + Go to GitHub website
     + Go to my repository in the GitHub
     + Go to Settings tab click on
-    + Go to GiHub Page and linking the main root to Master Branch 
+    + Go to GitHub Page and linking the main root to Master Branch 
     + Once this is done the page will automatically creat the ribbon with the http host page name that is been hosted by GitHub.
     The live link can be found here : https://luizsmania.github.io/TheGoodTraveller/
 
