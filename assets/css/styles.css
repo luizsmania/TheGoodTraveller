@@ -954,6 +954,111 @@ em {
 
 }
 
+
+/* Form Submitted Page */
+
+#wrapper { 
+    position: relative;
+    clear: both;
+    padding-top: 70px;
+}
+
+#formsubmitted {
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    max-width: 600px;
+    height: 400px;
+    background: url(../images/formsubmittedbackground.webp) no-repeat center center;
+    background-size: cover;
+    border-radius: 30px;
+    color: #000281;
+}
+
+#formsubmittedtext{
+    font-weight: bolder;
+    text-shadow: 1px 1px rgb(255, 255, 255, 0.5);
+}
+
+
+#formsubmitted h1{
+   padding-top: 140px;
+}
+
+@media screen and (max-width: 720px){
+    #wrapper{
+        padding-top: 50px;
+    }
+    #formsubmitted{
+        width: 400px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+}
+
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+@media screen and (max-width: 490px){
+    .popup{
+        width: 300px;
+    }
+    
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #000281;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
 /* Social netwook footer rules */
 footer {
     clear: both;

@@ -39,7 +39,7 @@
     <!-- Form -->
     <div class="form-outer">
       <section class="work-form-section">
-        <form class="work-signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+        <form class="work-signup-form" onsubmit="openPopup()" method="dialog">
           <h2>Apply to work with us!</h2>
           <label for="fname">First Name</label>
           <input id="fname" class="text-input" type="text" name="first_name" required>
@@ -68,9 +68,18 @@
           <label for="myfile">Attach your CV:</label>
           <input type="file" id="myfile" name="myfile">
           <input class="join-button" type="submit" value="Submit">
+          <div class="popup" id="popup">
+            <img src="assets/images/tick.png">
+            <h2>We have good news!</h2>
+            <p>Your details have been succesfully submitted. Thanks!</p>
+            <button type="button" onclick="closePopup()">OK</button>
+          </div>
+          
         </form>
       </section>
     </div>
+
+    
     <!-- social networks footer -->
     <footer>
       <ul class="social-networks">
@@ -86,4 +95,18 @@
     </footer>
     <script src="https://kit.fontawesome.com/4d84fb1b4f.js" crossorigin="anonymous"></script>
   </body>
+
+  <script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+  popup.classList.add("open-popup");
+}
+
+function closePopup(){
+  popup.classList.remove("open-popup");
+  window.open("formsubmitted.html")
+}
+
+  </script>
 </html>
